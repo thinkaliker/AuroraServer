@@ -1,0 +1,168 @@
+Commands - Check the bottom for some explainations
+
+IRC
+	!players
+		Lists players currently online
+	!time
+		Lists current time in the Minecraft world
+
+Everyone
+	/warp spawntown
+	/warp none
+	/warp newbie
+	/warplist
+	/tchest count
+	/afk
+	/help
+	/time
+	/compass
+	/depth
+	/getpos
+	/ignore
+	/mail <send/read/clear>
+	/n
+	/names
+	/list
+	/itemdb
+	/me
+	/motd
+	/msg
+	/near
+	/ps add <name>
+	/ps remove <name>
+	/ps toggle
+	/ps flag <flag name> <flag value>
+	/realname
+	/rules
+	/reply
+	/seen
+	/suicide
+	/spawn
+	/delhome
+	/home
+	/sethome
+
++
+	/hat
+	/warp creative
+
+++
+	/kick
+	/kick notify
+	/kill
+	/mute
+	/list hidden
+	/teleport hidden
+	/tp
+	/tpo
+	/top
+	/heal
+	/heal <name>
+	/whois
+
+Mod
+	/god
+	/ban
+	/ban <reason>
+	/ban offline
+	/irc
+	/jails
+	/tempban
+	/tempban offline
+	/unban
+	/vanish
+	/vanish see
+	/tppos
+	/region (Region selection guide http://wiki.sk89q.com/wiki/WorldEdit/Reference)
+	//wand (and region selection and setting, basically, WorldGuard)
+	/invsee
+	/dynmap <show/hide>
+	/warp (all)
+	
+============ EXPLAINATIONS ============
+
+How to protect with /ps
+
+	Place a block in the center of where you want something protected.
+	Formula (x * 2) + 1 = edge of square protected
+		- Coal block 	= 		5 	(11 x 11)
+		- Iron block 	= 		10 	(21 x 21)
+		- Gold block 	= 		20 	(41 x 41)
+		- Diamond block = 		50 	(101 x 101)
+
+
+Everyone
+	/warp spawntown
+		Warps you to spawn town, a small area near/on top of spawn
+	/warp none
+		Warps you to remove the "Newbie" title
+	/warp newbie
+		Warps you to add the "Newbie" title
+	/warplist
+		Lists available warps
+	/ps add <name>
+		Adds a member to your region
+	/ps remove <name>
+		Removes a member from your region
+	/ps toggle
+		Place protection blocks (see above) without protection
+	/ps flag <flagname> <flag value>
+		Add/change flags in your region
+		Allowed flags:
+			- chest-access
+			- entry
+			- mob-spawning
+			- pvp
+			- use
+			- greeting
+			- farewell
+	/tchest count
+		Displays the number of treasure chests you have found
+	/afk
+		Sets your status to AFK (Away From Keyboard) - moving will unset your status automatically
+	/help
+		Displays help
+	/time
+		Displays the current time
+	/compass
+		Displays your current heading
+	/depth
+		Displays your current depth
+	/getpos
+		Displays detailed information about your position
+	/ignore
+		Mutes a certain player (only for you)
+	/mail <send/read/clear>
+		Sends/Reads/Deletes in-game mail (use /mail for info on how to use it)
+	/list
+		Lists the players online
+	/names    OR    /n
+		Lists the people currently in the IRC channel
+	/itemdb
+		Lists the possible names for the item currently in your hand, along with the item ID
+	/me
+		Self explainitory
+	/motd
+		Displays the Message of the Day (the message you see in chat when you first log in to the server)
+	/msg <playerName>     OR     /m <playerName>
+		Sends a private message to a specific player
+	/near
+		Lists players nearby
+	/realname
+		Displays a player's actual username
+	/rules
+		Lists the rules
+	/reply     OR    /r
+		Replies to the message
+	/seen <playerName>
+		Displays when a player has last been online
+	/suicide
+		Kill yourself
+	/spawn
+		Warp to spawn
+	/delhome
+		Delete one of your homes
+	/home
+		Warp to one of your homes
+	/sethome
+		Sets a home location at that spot

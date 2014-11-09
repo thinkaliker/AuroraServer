@@ -1,0 +1,20 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+    <loc>http://auroraserver.tk/</loc>
+    <changefreq>monthly</changefreq>
+   </url>
+
+  <url>
+    <loc>http://auroraserver.tk/index.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://auroraserver.tk/commands.txt</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+
+</urlset>

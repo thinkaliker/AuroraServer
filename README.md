@@ -1,3 +1,3 @@
 AuroraServer
 ======
-This is the git repository for [AuroraServer](http://auroraserver.tk).
+This is the git repository for the [AuroraServer](http://auroraserver.tk) website.

@@ -19,7 +19,7 @@ body {
 }
 
 .Aligner-item {
-  flex: 1;
+  min-width: 50%;
   max-width: 50%;
 }
 .Aligner-item--top {
@@ -32,7 +32,7 @@ body {
   display: none;
 }
 
-[class~="footer"] {
+.footer {
   margin: 2px !important;
 }
 .footerbar {

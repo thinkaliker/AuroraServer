@@ -21,6 +21,7 @@ body {
 .Aligner-item {
   min-width: 50%;
   max-width: 50%;
+  width: 50%;
 }
 .Aligner-item--top {
   align-self: flex-start;

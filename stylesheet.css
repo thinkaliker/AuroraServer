@@ -1,93 +1,42 @@
-html,
 body {
-  height: 100%;
-  background-color: #000000 !important;
-  /* The html and body elements cannot have any padding or margin. */
-}
-
-#main {
-	color: #FFFFFF !important;
-}
-
-/* Wrapper for page content to push down footer */
-#wrap {
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by it's height */
-  margin: 0 auto -100px;
+  padding-top: 70px;
+  width: 100%;
 }
 
-/* Set the fixed height of the footer here */
-#push,
-#footer {
-  height: 100px;
-}
-#footer {
-  background-color: #000;
+.Aligner {
+  display: flex;
+  align-items: center;
+  height: 24em;
+  justify-content: center;
 }
 
-/* Lastly, apply responsive CSS fixes as necessary */
-@media (max-width: 767px) {
-#footer {
-  margin-left: -20px;
-  margin-right: -20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+@supports not (-ms-flex: 1) {
+  .Aligner {
+    height: auto;
+    min-height: 24em;
+  }
 }
 
-.link{
-	text-decoration:none;
+.Aligner-item {
+  flex: 1;
+  max-width: 50%;
+}
+.Aligner-item--top {
+  align-self: flex-start;
+  min-width: 75%;
+  max-width: 75%;
 }
 
-.link a{
-	padding:0;
-	-webkit-transition:color,background .5s ease;
-	-moz-transition:color,background .5s ease;
-	-o-transition:color,background .5s ease;
-	transition:color,background .5s ease;
-	text-decoration:none;
-	color:#C00;
+[type="section"]{
+  display: none;
 }
 
-a {
-	text-decoration:none;
-	color:#C00;
+[class~="footer"] {
+  margin: 2px !important;
 }
-
-.link a:hover{
-	background:#C00;
-	color:#000;
-	text-decoration:none;
-}
-
-a:visited{
-	color:#DDD;
-}
-
-.p{
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.errorfooter {
-	display:block;
-	text-decoration:none;
-	color:#F90;
-	padding-left:25px;
-	font-size:12px;
-}
-.error{
-	display:block;
-	padding-top:200px;
-	padding-bottom:9px;
-	padding-left:25px;
-	font-family:segoeui;
-	color:#FFFFFF;
-	font-size:36px;
-}
-
-.errorpage{
-	overflow:hidden;
+.footerbar {
+  line-height: 20px !important;
+  min-height: 20px !important;
+  height: 20px !imporant;
 }

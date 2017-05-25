@@ -41,3 +41,8 @@ body {
   min-height: 20px !important;
   height: 20px !imporant;
 }
+
+#frame {
+  height: 75vh;
+  width: 75vw;
+}
